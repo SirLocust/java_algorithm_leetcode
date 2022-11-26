@@ -23,6 +23,15 @@ public class RunningSumof1dArrayTest {
 
   }
 
+  @Test
+  void testRunningSumFuctional() {
+    RunningSumof1dArray problem = new RunningSumof1dArray();
+    int input[] = {3,1,2,10,1} ;
+    int output[] = {3,4,6,16,17} ;
+    int[] result = problem.runningSumFuctional(input);
+    assertArrayEquals(output,result);
+  }
+
   
 
 }
