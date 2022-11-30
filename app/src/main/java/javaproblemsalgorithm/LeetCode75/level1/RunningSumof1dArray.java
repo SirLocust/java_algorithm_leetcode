@@ -3,8 +3,6 @@ package javaproblemsalgorithm.LeetCode75.level1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class RunningSumof1dArray {
 
@@ -34,13 +32,6 @@ public class RunningSumof1dArray {
           .get()
           .mapToInt(Integer::intValue)
           .toArray();
-          
-        
-          
-          
-           
-          
-    
   }
 
   
