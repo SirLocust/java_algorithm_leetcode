@@ -1,9 +1,11 @@
-package javaproblemsalgorithm.arrays;
+package javaproblemsalgorithm.strings;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import javaproblemsalgorithm.strings.JewelsAndStones;
 
 public class JewelsAndStonesTest {
 

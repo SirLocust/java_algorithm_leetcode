@@ -1,4 +1,4 @@
-package javaproblemsalgorithm.arrays;
+package javaproblemsalgorithm.strings;
 
 public class JewelsAndStones {
   public int numJewelsInStones(String jewels, String stones) {
